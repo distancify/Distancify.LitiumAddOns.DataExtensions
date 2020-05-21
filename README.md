@@ -14,10 +14,10 @@ or name.
 Start by creating a class implementing `IIndexedTextField`:
 
 ```csharp
-using Distancify.LitiumAddOns.DataExtensions;
+using Distancify.LitiumAddOns.DataExtensions.IndexedTextValue;
 using Litium.FieldFramework;
 
-namespace RevolutionRace.DataExtensions
+namespace MyProject
 {
     public class EmailIndexedTextField : IIndexedTextField
     {
